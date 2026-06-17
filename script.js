@@ -24,19 +24,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Floating WhatsApp Button Logic
-    const floatingWhatsApp = document.getElementById('floating-whatsapp');
-    const cenarioSection = document.getElementById('cenario');
 
-    if (floatingWhatsApp && cenarioSection) {
+
+    // Header Navbar Logic
+    const header = document.querySelector('.header');
+    if (header) {
         window.addEventListener('scroll', () => {
-            const cenarioTop = cenarioSection.getBoundingClientRect().top;
-            
-            // Show button when the "Cenário" section is reached
-            if (cenarioTop <= window.innerHeight * 0.8) {
-                floatingWhatsApp.classList.add('visible');
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
             } else {
-                floatingWhatsApp.classList.remove('visible');
+                header.classList.remove('scrolled');
             }
         });
     }
