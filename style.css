@@ -642,10 +642,10 @@ ul {
     .hero {
         align-items: flex-end;
         padding-top: 0;
-        background-image: url('iPhone 16 - 1 (3).png');
-        background-position: center -10vh;
-        background-size: 100% auto;
-        background-repeat: no-repeat;
+        background-image: linear-gradient(to top, #CCCED8 0%, #CCCED8 10%, transparent 40%), url('iPhone 16 - 1 (3).png');
+        background-position: center -1vh;
+        background-size: 100% 100%, 100% auto;
+        background-repeat: no-repeat, no-repeat;
         padding-bottom: 15px;
         min-height: 100svh;
     }
