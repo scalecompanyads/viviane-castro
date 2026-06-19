@@ -642,7 +642,7 @@ ul {
     .hero {
         align-items: flex-end;
         padding-top: 0;
-        background-image: linear-gradient(to top, #CCCED8 0%, #CCCED8 20%, rgba(204, 206, 216, 0.8) 40%, transparent 60%), url('iPhone 16 - 1 (3).png');
+        background-image: linear-gradient(to top, #CCCED8 0%, #CCCED8 40%, rgba(204, 206, 216, 0.85) 60%, transparent 85%), url('iPhone 16 - 1 (3).png');
         background-position: center -1vh;
         background-size: 100% 100%, 100% auto;
         background-repeat: no-repeat, no-repeat;
