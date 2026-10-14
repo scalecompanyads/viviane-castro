@@ -225,14 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            const message = [
-                'Olá! Preenchi a análise inicial no site e gostaria de falar com a Dra. Viviane.',
-                '',
-                `*Nome:* ${lead.nome}`,
-                `*Situação:* ${lead.situacao}`,
-                `*Cobrança em nome de:* ${lead.titular}`,
-                `*Valor aproximado:* ${lead.valor}`
-            ].join('\n');
+            const message = `Olá! Sou ${lead.nome} e gostaria de uma análise do meu caso.`;
             const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 
             success.querySelector('.success-text').innerHTML =
