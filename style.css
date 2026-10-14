@@ -130,7 +130,7 @@ ul {
     align-items: center;
     background-color: #CCCED8;
     /* Mobile Background Default */
-    background-image: url('hero-mobile-bg.png');
+    background-image: url('hero-mobile-bg.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -878,7 +878,7 @@ ul {
 @media (min-width: 992px) {
     .hero {
         /* Desktop Background */
-        background-image: url('hero-desktop.png');
+        background-image: url('hero-desktop.jpg');
         background-position: center center;
     }
 }
